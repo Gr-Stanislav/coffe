@@ -15,6 +15,7 @@
     height: 506px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .box-item {
@@ -23,12 +24,32 @@
     height: 405px;
     margin: 49px 23px;
     text-align: center;
+    transition: all .25s;
+}
+
+.box-item:hover {
+    height: 430px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
 }
 
 .cost {
-    display: inline-block;
+    display: block;
     font-size: 80px;
     margin-top: 20px;
     color: #02995B;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.any_cup {
+    display: inline-block;
+    padding: 0px;
+    width: 120px;
+    margin-top: 10px;
 }
